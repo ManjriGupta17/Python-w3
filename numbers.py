@@ -1,0 +1,11 @@
+x=35e3
+print(type(x))
+a=2
+b="MG"
+c=1j
+d=float(a)
+e=str(b)
+f=complex(c)
+print(type(d))
+print(type(e))
+print(type(f))
