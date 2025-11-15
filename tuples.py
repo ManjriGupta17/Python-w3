@@ -1,0 +1,11 @@
+thistuple=("Apple","Banana","Pumpkin")
+print(thistuple)
+print(len(thistuple))
+print(thistuple[1])
+print(thistuple[-1])
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+print(thistuple[:4])
+fruits = ('apple', 'banana', 'cherry')
+(x, y, z) = fruits
+print(y)
