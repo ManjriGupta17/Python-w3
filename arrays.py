@@ -11,3 +11,4 @@ cars.append("Honda")
 
 cars.pop(1)
 cars.remove("Honda")
+print( cars)
