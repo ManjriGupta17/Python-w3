@@ -1,0 +1,5 @@
+print(thisdict)
+print(thisdict["Age"])
+print(len(thisdict))
+x=thisdict.get("Name")
+print(x)
