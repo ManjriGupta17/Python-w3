@@ -91,3 +91,33 @@
 # for c in b:
 #     print(b)
 
+# a=[1,2,3]
+# a[2]=0
+# a[a[2]] = 5
+# a[1:2]=[]
+# print(a)
+
+a=[1,2,[3,4],5]
+c=len(a)
+print(c)
+
+c=len(a)
+print(type(a))
+
+a=[1,2,[3,4],5]
+count=0
+
+for item in a:
+    if type(item) == int:
+        count+=1
+    else:
+        for x in item:
+            count+=1
+
+print(count)
+print(len(a[2]))#this will return because yeh length puch raha re
+# print(a[len(a)])
+print(a[-1 * len(a)])#-1*4=-4 index [-4]is 1
+a=[1,2,[3,4],5]
+print(a[1:3])
+print(len(a))
