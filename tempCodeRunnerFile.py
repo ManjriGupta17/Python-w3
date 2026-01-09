@@ -1,5 +1,2 @@
-print(thisdict)
-print(thisdict["Age"])
-print(len(thisdict))
-x=thisdict.get("Name")
-print(x)
+print(a(a[-1]))
+# print(a[a[a[a[2]+1]]])

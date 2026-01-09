@@ -97,27 +97,61 @@
 # a[1:2]=[]
 # print(a)
 
-a=[1,2,[3,4],5]
-c=len(a)
-print(c)
+# a=[1,2,[3,4],5]
+# c=len(a)
+# print(c)
 
-c=len(a)
-print(type(a))
+# c=len(a)
+# print(type(a))
 
-a=[1,2,[3,4],5]
-count=0
+# a=[1,2,[3,4],5]
+# count=0
 
-for item in a:
-    if type(item) == int:
-        count+=1
-    else:
-        for x in item:
-            count+=1
+# for item in a:
+#     if type(item) == int:
+#         count+=1
+#     else:
+#         for x in item:
+#             count+=1
 
-print(count)
-print(len(a[2]))#this will return because yeh length puch raha re
-# print(a[len(a)])
-print(a[-1 * len(a)])#-1*4=-4 index [-4]is 1
-a=[1,2,[3,4],5]
-print(a[1:3])
-print(len(a))
+# print(count)
+# print(len(a[2]))#this will return because yeh length puch raha re
+# # print(a[len(a)])
+# print(a[-1 * len(a)])#-1*4=-4 index [-4]is 1
+# a=[1,2,[3,4],5]
+# print(a[1:3])
+# print(len(a))
+
+            ##date-9jan
+# lst=[1,2,3]
+# myvar = lst[0]
+# lst[0]=18
+# print(lst)
+# print(myvar)
+
+# myvar=18
+# lst=[myvar,2,3]
+# myvar=22
+# print(lst)
+# print(myvar)
+
+# a=[1,2,(3,4),5]
+# print(len(a))
+# print(-1*len(a))
+# print(a[2],len(a[2]))
+
+# a=[1,2,3]
+# a[2]=0
+# a[a[2]]=5
+# a[1:2]=[]
+# print(a)
+
+a=[55,44,33,22,11,0]
+print(a[0])
+print(a[-1])
+
+# print(a(a[-1]))
+# print(a[a[a[a[2]+1]]])
+for x in [1,2]:
+    for y in [3,x]:
+        print(x,y)
