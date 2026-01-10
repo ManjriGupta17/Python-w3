@@ -155,3 +155,9 @@ print(a[-1])
 for x in [1,2]:
     for y in [3,x]:
         print(x,y)
+
+#mnn nhi krra sir me hai drd
+a=input("enter your msg ")
+b=(":-Jaisi aapki aagya")
+
+print(a + b)
