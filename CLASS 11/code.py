@@ -21,3 +21,14 @@ else:
     smallest = c
 
 print("Smallest number is:",smallest)
+
+i=int(input("Enter number: "))
+rev = 0
+x = i
+while (i>0):
+    rev=(rev*10)+i%10
+    i=i//10
+if (x==rev):
+    print("Palindrome number")
+else:
+    print("Not palindrome number")
